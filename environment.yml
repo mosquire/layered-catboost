@@ -1,0 +1,10 @@
+name: layered_catboost
+dependencies:
+  - python=3.9
+  - pip
+  - nb_conda_kernels
+  - pip:
+    - scikit-learn
+    - catboost
+    - pandas
+    - shap
